@@ -4,6 +4,7 @@
  * key 待处理的url
  * 
  */
+ ```js
 function getParentNode2(data, key) {
     for (let i = 0; i < data.length; i++) {
         if (data[i].children?.length) {
@@ -17,3 +18,4 @@ function getParentNode2(data, key) {
     }
     return null
 }
+```
